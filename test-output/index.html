@@ -25,7 +25,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+      <span class="top-banner-font-1">1 suite</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -39,7 +39,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-PetSuite" class="navigator-link">
-              <span class="suite-name border-failed">PetSuite</span>
+              <span class="suite-name border-passed">PetSuite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -92,21 +92,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">5 methods, 1 failed,   4 passed</span>
-                  </li>
-                  <li>
-                    <span class="method-list-title failed">Failed methods</span>
-                    <span class="show-or-hide-methods failed">
-                      <a href="#" panel-name="suite-PetSuite" class="hide-methods failed suite-PetSuite"> (hide)</a> <!-- hide-methods failed suite-PetSuite -->
-                      <a href="#" panel-name="suite-PetSuite" class="show-methods failed suite-PetSuite"> (show)</a> <!-- show-methods failed suite-PetSuite -->
-                    </span>
-                    <div class="method-list-content failed suite-PetSuite">
-                      <span>
-                        <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-PetSuite" title="api.test.UserTests2" class="method navigator-link" hash-for-method="testFailedTest">testFailedTest</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                    </div> <!-- method-list-content failed suite-PetSuite -->
+                    <span class="method-stats">4 methods,   4 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -147,26 +133,6 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-PetSuite" class="panel PetSuite">
-          <div class="suite-PetSuite-class-failed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="failed.png"/>
-              <span class="class-name">api.test.UserTests2</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="testFailedTest">
-                  </a> <!-- testFailedTest -->
-                  <span class="method-name">testFailedTest</span>
-                  <div class="stack-trace">java.lang.AssertionError: expected [false] but found [true]
-	at api.test.UserTests2.testFailedTest(UserTests2.java:116)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 33 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-PetSuite-class-failed -->
           <div class="suite-PetSuite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -258,32 +224,28 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(5);
+data.addRows(4);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'test_post_User')
 data.setCell(0, 2, 'api.test.UserTests2')
-data.setCell(0, 3, 2180);
+data.setCell(0, 3, 3578);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'testUpdateUserByName')
 data.setCell(1, 2, 'api.test.UserTests2')
-data.setCell(1, 3, 1051);
+data.setCell(1, 3, 1416);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'testDeleteUserByUserName')
+data.setCell(2, 1, 'getUserByName')
 data.setCell(2, 2, 'api.test.UserTests2')
-data.setCell(2, 3, 1029);
+data.setCell(2, 3, 1411);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'getUserByName')
+data.setCell(3, 1, 'testDeleteUserByUserName')
 data.setCell(3, 2, 'api.test.UserTests2')
-data.setCell(3, 3, 1027);
-data.setCell(4, 0, 4)
-data.setCell(4, 1, 'testFailedTest')
-data.setCell(4, 2, 'api.test.UserTests2')
-data.setCell(4, 3, 11);
+data.setCell(3, 3, 1380);
 window.suiteTableData['PetSuite']= { tableData: data, tableDiv: 'times-div-PetSuite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 5 seconds</span>
+              <span class="suite-total-time">Total running time: 7 seconds</span>
               <div id="times-div-PetSuite">
               </div> <!-- times-div-PetSuite -->
             </div> <!-- times-div -->
@@ -315,26 +277,20 @@ return data;
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">testFailedTest</span>
-                <span class="method-start">505 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
                 <span class="method-name">test_post_User</span>
-                <span class="method-start">527 ms</span>
+                <span class="method-start">1186 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">getUserByName</span>
-                <span class="method-start">2710 ms</span>
+                <span class="method-start">4773 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">testUpdateUserByName</span>
-                <span class="method-start">3738 ms</span>
+                <span class="method-start">6186 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">testDeleteUserByUserName</span>
-                <span class="method-start">4791 ms</span>
+                <span class="method-start">7605 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
