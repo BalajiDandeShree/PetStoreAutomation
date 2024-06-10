@@ -1,56 +1,16 @@
-20:37:23.642 [main] INFO  api.test.UserTests2 - ******Creating user ***************User [userName=russel.emard, firstName=Virgilio, lastName=Kuvalis, email=tyson.fritsch@example.com, password=gm8p5h1c, phone=296-320-8078, userStatus=0, id=1508038883]
-20:37:26.058 [main] INFO  api.test.UserTests2 - ******User is Created  ***************
-20:37:26.065 [main] INFO  api.test.UserTests2 - ******Reading  user Info  ***************
-20:37:27.109 [main] INFO  api.test.UserTests2 - ****** User Info displayed ***************
-20:37:27.111 [main] INFO  api.test.UserTests2 - ******Updating  user ***************
-20:37:28.150 [main] INFO  api.test.UserTests2 - ****** user info Updated ***************
-20:37:28.151 [main] INFO  api.test.UserTests2 - ******Deletig user ***************
-20:37:29.339 [main] INFO  api.test.UserTests2 - ****** user  deleated ***************
-17:26:22.763 [main] INFO  api.test.UserTests2 - ******Creating user ***************User [userName=sherman.ferry, firstName=Maryellen, lastName=Ledner, email=harmony.marks@example.com, password=duh2p6, phone=508.744.8871, userStatus=0, id=599782425]
-17:26:26.326 [main] INFO  api.test.UserTests2 - ******User is Created  ***************
-17:26:26.337 [main] INFO  api.test.UserTests2 - ******Reading  user Info  ***************
-17:26:27.746 [main] INFO  api.test.UserTests2 - ****** User Info displayed ***************
-17:26:27.750 [main] INFO  api.test.UserTests2 - ******Updating  user ***************
-17:26:29.165 [main] INFO  api.test.UserTests2 - ****** user info Updated ***************
-17:26:29.169 [main] INFO  api.test.UserTests2 - ******Deletig user ***************
-17:26:30.547 [main] INFO  api.test.UserTests2 - ****** user  deleated ***************
-17:38:43.849 [main] INFO  api.test.UserTests2 - ******Creating user ***************User [userName=ramon.lesch, firstName=Jermaine, lastName=Veum, email=gwenda.lockman@example.com, password=kx7zpr1p3, phone=1-115-640-1604, userStatus=0, id=1508038883]
-17:38:46.760 [main] INFO  api.test.UserTests2 - ******User is Created  ***************
-17:38:46.769 [main] INFO  api.test.UserTests2 - ******Reading  user Info  ***************
-17:38:48.185 [main] INFO  api.test.UserTests2 - ****** User Info displayed ***************
-17:38:48.188 [main] INFO  api.test.UserTests2 - ******Updating  user ***************
-17:38:49.642 [main] INFO  api.test.UserTests2 - ****** user info Updated ***************
-17:38:49.643 [main] INFO  api.test.UserTests2 - ******Deletig user ***************
-17:38:51.057 [main] INFO  api.test.UserTests2 - ****** user  deleated ***************
-18:31:24.475 [main] INFO  api.test.UserTests2 - ******Creating user ***************User [userName=tenesha.collier, firstName=Ninfa, lastName=Kautzer, email=danuta.huel@example.com, password=2il6w, phone=001-693-7353, userStatus=0, id=1176932104]
-18:31:26.989 [main] INFO  api.test.UserTests2 - ******User is Created  ***************
-18:31:26.998 [main] INFO  api.test.UserTests2 - ******Reading  user Info  ***************
-18:31:29.154 [main] INFO  api.test.UserTests2 - ****** User Info displayed ***************
-18:31:29.155 [main] INFO  api.test.UserTests2 - ******Updating  user ***************
-18:31:30.410 [main] INFO  api.test.UserTests2 - ****** user info Updated ***************
-18:31:30.412 [main] INFO  api.test.UserTests2 - ******Deletig user ***************
-18:31:31.771 [main] INFO  api.test.UserTests2 - ****** user  deleated ***************
-16:19:49.264 [main] INFO  api.test.UserTests2 - ******Creating user ***************User [userName=tessa.homenick, firstName=Sylvester, lastName=Trantow, email=kandy.leffler@example.com, password=2zzfxyfaz, phone=(927) 090-8024, userStatus=0, id=1508038883]
-16:19:51.991 [main] INFO  api.test.UserTests2 - ******User is Created  ***************
-16:19:52.002 [main] INFO  api.test.UserTests2 - ******Reading  user Info  ***************
-16:19:53.261 [main] INFO  api.test.UserTests2 - ****** User Info displayed ***************
-16:19:53.263 [main] INFO  api.test.UserTests2 - ******Updating  user ***************
-16:19:54.573 [main] INFO  api.test.UserTests2 - ****** user info Updated ***************
-16:19:54.576 [main] INFO  api.test.UserTests2 - ******Deletig user ***************
-16:19:55.888 [main] INFO  api.test.UserTests2 - ****** user  deleated ***************
-17:40:20.241 [main] INFO  api.test.UserTests2 - ******Creating user ***************User [userName=raeann.maggio, firstName=Loren, lastName=Schaefer, email=fernando.rippin@example.com, password=sfh3g1z, phone=1-541-696-8943, userStatus=0, id=1176932104]
-17:40:22.760 [main] INFO  api.test.UserTests2 - ******User is Created  ***************
-17:40:22.769 [main] INFO  api.test.UserTests2 - ******Reading  user Info  ***************
-17:40:23.922 [main] INFO  api.test.UserTests2 - ****** User Info displayed ***************
-17:40:23.924 [main] INFO  api.test.UserTests2 - ******Updating  user ***************
-17:40:25.088 [main] INFO  api.test.UserTests2 - ****** user info Updated ***************
-17:40:25.089 [main] INFO  api.test.UserTests2 - ******Deletig user ***************
-17:40:26.309 [main] INFO  api.test.UserTests2 - ****** user  deleated ***************
-17:40:50.827 [main] INFO  api.test.UserTests2 - ******Creating user ***************User [userName=briana.crooks, firstName=Derick, lastName=Mohr, email=lilli.monahan@example.com, password=2f0228, phone=003-671-3961, userStatus=0, id=1508038883]
-17:40:53.243 [main] INFO  api.test.UserTests2 - ******User is Created  ***************
-17:40:53.252 [main] INFO  api.test.UserTests2 - ******Reading  user Info  ***************
-17:40:54.445 [main] INFO  api.test.UserTests2 - ****** User Info displayed ***************
-17:40:54.447 [main] INFO  api.test.UserTests2 - ******Updating  user ***************
-17:40:56.629 [main] INFO  api.test.UserTests2 - ****** user info Updated ***************
-17:40:56.632 [main] INFO  api.test.UserTests2 - ******Deletig user ***************
-17:40:57.839 [main] INFO  api.test.UserTests2 - ****** user  deleated ***************
+18:22:02.586 [main] INFO  api.test.UserTests - ******Creating user ***************User [userName=rhoda.parisian, firstName=Delisa, lastName=Howe, email=phoebe.greenholt@example.com, password=xtgkustd, phone=(908) 174-8239, userStatus=0, id=38544126]
+18:22:05.524 [main] INFO  api.test.UserTests - ******User is Created  ***************
+18:22:05.529 [main] INFO  api.test.UserTests - ******Reading  user Info  ***************
+18:22:06.880 [main] INFO  api.test.UserTests - ****** User Info displayed ***************
+18:22:06.883 [main] INFO  api.test.UserTests - ******Updating  user ***************
+18:22:08.196 [main] INFO  api.test.UserTests - ****** user info Updated ***************
+18:22:08.200 [main] INFO  api.test.UserTests - ******Deletig user ***************
+18:22:09.569 [main] INFO  api.test.UserTests - ****** user  deleated ***************
+18:39:16.194 [main] INFO  api.test.UserTests2 - ******Creating user ***************User [userName=chassidy.effertz, firstName=Melva, lastName=Adams, email=lilla.berge@example.com, password=jh9xwg, phone=(545) 336-0987, userStatus=0, id=712410124]
+18:39:18.924 [main] INFO  api.test.UserTests2 - ******User is Created  ***************
+18:39:18.938 [main] INFO  api.test.UserTests2 - ******Reading  user Info  ***************
+18:39:20.314 [main] INFO  api.test.UserTests2 - ****** User Info displayed ***************
+18:39:20.316 [main] INFO  api.test.UserTests2 - ******Updating  user ***************
+18:39:21.676 [main] INFO  api.test.UserTests2 - ****** user info Updated ***************
+18:39:21.678 [main] INFO  api.test.UserTests2 - ******Deletig user ***************
+18:39:23.050 [main] INFO  api.test.UserTests2 - ****** user  deleated ***************
